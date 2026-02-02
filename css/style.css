@@ -165,5 +165,7 @@ body::before {
 }
 .section-messege img {
   height: 180px;
-  width: fit-content;
+  width: 100%;
+  max-width: 250px;
+  object-fit: contain;
 }
